@@ -1,5 +1,3 @@
-// Termm--Fall 2024
-
 #include "Primitive.hpp"
 
 #include <random>

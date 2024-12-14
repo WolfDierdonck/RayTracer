@@ -1,37 +1,3 @@
-// scene_lua.cpp
-//
-// Everything that's needed to parse a scene file using Lua.
-// You don't necessarily have to understand exactly everything that
-// goes on here, although it will be useful to have a reasonable idea
-// if you wish to add new commands to the scene format.
-//
-// Lua interfaces with C/C++ using a special stack. Everytime you want
-// to get something from lua, or pass something back to lua (e.g. a
-// return value), you need to use this stack. Thus, most of the lua_
-// and luaL_ functions actually manipulate the stack. All the
-// functions beginning with "lua_" are part of the Lua C API itself,
-// whereas the "luaL_" functions belong to a library of useful
-// functions on top of that called lauxlib.
-//
-// This file consists of a bunch of C function declarations which
-// implement functions callable from Lua. There are also two tables
-// used to set up the interface between Lua and these functions, and
-// the main "driver" function, import_lua, which calls the lua
-// interpreter and sets up all the state.
-//
-// Note that each of the function declarations follow the same format:
-// they take as their only argument the current state of the lua
-// interpreter, and return the number of values returned back to lua.
-//
-// For more information see the book "Programming In Lua," available
-// online at http://www.lua.org/pil/, and of course the Lua reference
-// manual at http://www.lua.org/manual/5.0/.
-//
-// http://lua-users.org/wiki/LauxLibDocumentation provides a useful
-// documentation of the "lauxlib" functions (beginning with luaL_).
-//
-// -- University of Waterloo Computer Graphics Lab 2005
-
 #include "scene_lua.hpp"
 
 #include <iostream>
@@ -41,7 +7,7 @@
 #include <vector>
 #include <map>
 
-#include "lua488.hpp"
+#include "lua.hpp"
 
 #include "../Modeling/Light.hpp"
 #include "../Modeling/Mesh.hpp"

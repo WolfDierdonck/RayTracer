@@ -1,5 +1,3 @@
-// Termm--Fall 2024
-
 #include "Material.hpp"
 
 Material::Material(const glm::vec3 &kd, const glm::vec3 &ks, double shininess, double reflectivity, double transparency)

@@ -1,5 +1,3 @@
-// Termm--Fall 2024
-
 #include <iostream>
 #include "./Lua/scene_lua.hpp"
 

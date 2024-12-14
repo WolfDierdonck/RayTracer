@@ -1,5 +1,3 @@
-// Termm--Fall 2024
-
 #include <glm/ext.hpp>
 
 #include "Renderer.hpp"

@@ -1,4 +1,5 @@
 /Makefile
+src/Makefile
 shared/glfw**/Makefile
 shared/imgui**/Makefile
 

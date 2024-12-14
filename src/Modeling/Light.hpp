@@ -1,5 +1,3 @@
-// Termm--Fall 2024
-
 #pragma once
 
 #include <iosfwd>

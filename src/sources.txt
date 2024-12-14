@@ -1,0 +1,29 @@
+Sample Horse (obj file, texture map, normal map):
+https://www.cgtrader.com/free-3d-models/animals/mammal/horse-low-poly-3d-model-1ee5bfc7-3b0b-4e8c-bfc2-c6da08c3567e
+
+Sample Earth (texture map, normal map):
+https://planetpixelemporium.com/earth8081.html
+
+Sample Brick Wall (texture map, normal map):
+https://learnopengl.com/Advanced-Lighting/Normal-Mapping
+
+Sample Brick Wall 2 (texture map, normal map):
+https://everytexture.com/everytexture-com-stock-pavement-bricks-texture-00025/
+
+Bliss Background Image:
+By Original scan of Charles O'Rear's photograph, Fair use, https://en.wikipedia.org/w/index.php?curid=4705583
+
+Scene Wall (normal map):
+https://everytexture.com/everytexture-com-stock-paint-texture-00001/
+
+Scene Floor (texture map, normal map):
+https://freepbr.com/product/elegant-stone-tiles-pbr/
+
+Scene Ceiling (texture map, normal map):
+https://www.texturecan.com/details/131/#google_vignette
+
+Scene Couches (texture map, normal map):
+https://freepbr.com/product/light-sofa-upholstery-pbr/
+
+Scene Whiteboard (texture map):
+https://snippets.cacher.io/snippet/e2dcab5cc84f69ca6529
